@@ -1,0 +1,186 @@
+body{
+
+    margin: 0;
+    background-image: url("../images/purple.jpg");
+    background-size: cover;
+    overflow-y: scroll;
+
+}
+.scrollable-div {
+    height: 400px;
+}
+.barra{
+    background-color:#8700c4;
+    position:  fixed;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    z-index: 1;
+}
+.barrabutton{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.barrabutton:hover{
+    background-color: #4d0c80;
+    color: #4d6d9a  ;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+#top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+
+}
+
+#bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+#map {
+    height: 1000px;
+      z-index: 1;
+}
+
+p {
+    font-weight: bold;
+    color:lightgreen;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span#partida-coordinates, span#chegada-coordinates {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px; /* Adicionando margem inferior ao campo de seleção */
+}
+
+.btn-alterar,
+.btn-eliminar {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #7d0e7d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-eliminar {
+    background-color: #FF0000;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Alinhar os elementos verticalmente */
+    align-items: center; /* Alinhar os elementos horizontalmente */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+td {
+    color: whitesmoke; /* Change to the desired color */
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+#panel {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 300px; /* Adjust the width as needed */
+    height: 100%;
+    z-index: 2;
+}
+.panel-content {
+    position: relative;
+    background: #905aed;
+    opacity: 0.9;
+    overflow-y: scroll;
+    max-height: 300px;
+    max-width: 500px;
+    padding :10px;
+    border-radius: 6px;
+}

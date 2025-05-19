@@ -1,0 +1,32 @@
+.form-group label {
+    width: 80px;
+    display: inline-block;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.8); 
+    margin-bottom: 10px;
+}
+
+
+.container4 {
+    width: 700px;
+    margin-top: 50px;
+    flex-direction: column;
+    box-shadow: 8px 8px 20px rgb(160, 32, 240);
+    background-color: #640096;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("../images/2am.png");
+
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}        
