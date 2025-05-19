@@ -171,7 +171,7 @@ $session_model->confirmLoggedIn();
 
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                 "Accept: application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8",
-                "Authorization:5b3ce3597851110001cf62488cc6db05885749dabd94695e0ee9da65", //colocar a KEY
+                "Authorization:", //colocar a KEY
                 "Content-Type: application/json; charset=utf-8"
             ));
 
